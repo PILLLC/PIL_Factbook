@@ -3,37 +3,53 @@
 :toclevels: 2
 :icons: font
 
-Thank you for your interest in contributing. This project values clarity,
+Thank you for your interest in contributing. The PIL World Index values clarity,
 neutrality, and verifiable sourcing above all else.
 
+This project treats country-level information as infrastructure, not editorial narrative.
+
 == Guiding Principles
+
 * Content must be descriptive, not prescriptive
 * Avoid advocacy, opinion, or partisan framing
 * Prefer primary, authoritative public data sources
 * Every factual claim should be attributable
 
 == Contribution Workflow
+
 . Fork the repository
 . Create a feature branch
 . Make your changes
-. Open a Pull Request (PR) with a clear description
+. Open a Pull Request (PR) with a clear description of scope and sources
 
-All PRs are reviewed for:
+Pull Requests are reviewed on a best-effort basis.  
+Review does not guarantee acceptance or inclusion in a release.
+
+All PRs are evaluated for:
+
 * Structural consistency
 * Sourcing and citation quality
 * Tone and neutrality
 * Compliance with the style guide
 
 == Country Profile Structure
-Each country or territory lives at:
 
-`profiles/by-iso/<ISO3>/index.adoc`
+Each country profile lives under:
 
-Directory names must use ISO 3166-1 alpha-3 codes unless otherwise documented.
+`countries/<country-name>/`
+
+At minimum, this includes:
+
+* `index.adoc` — structured indicators
+* `context.adoc` — descriptive context sections
+
+Directory naming conventions and structure should follow existing
+gold-standard exemplar profiles.
 
 == Required Metadata
-Every country profile must include the following attributes at the top
-of the file:
+
+Every country and organization profile must include the following attributes
+at the top of each file:
 
 [source,adoc]
 ----
@@ -45,6 +61,7 @@ of the file:
 ----
 
 == Citations
+
 Use AsciiDoc footnotes for citations:
 
 `Statement here.footnote:[Source name, dataset or table, year, identifier or URL.]`
@@ -52,16 +69,22 @@ Use AsciiDoc footnotes for citations:
 Numeric values, rankings, superlatives, and time-bound statements must be cited.
 
 == Adding New Sources
+
 If a new source is introduced:
+
 * Add it to `sources/registry.yml`
 * Include licensing and attribution notes
-* Reference it consistently in content
+* Reference it consistently across content
 
 == What Not to Submit
+
 * Unsourced factual claims
 * Editorial commentary or opinion
-* Speculative analysis
-* Content copied from proprietary sources
+* Speculative analysis or forecasting
+* Content copied from proprietary or restricted sources
 
 == Questions
-Open a GitHub issue labeled `question` if guidance is needed.
+
+If guidance is needed, open a GitHub issue labeled `question`.
+
+Responses are provided on a best-effort basis.

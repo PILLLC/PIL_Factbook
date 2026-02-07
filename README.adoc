@@ -12,6 +12,8 @@ institutional capacity — designed for transparency, reuse, and scrutiny.
 
 This project is independent, non-governmental, and open-source.
 
+_Maintained by Public Information Limited._
+
 toc::[]
 
 == What this is
@@ -60,7 +62,8 @@ AI assistance may be used for synthesis, but unsourced factual claims are not in
 == Governance and reuse
 
 Content is versioned by release and updated on a best-effort basis.
-Contributions are reviewed for sourcing, neutrality, and structural compliance.
+Contributions are welcome and reviewed for sourcing, neutrality, and structural compliance.
+Review and merge timelines are not guaranteed.
 
 The project is intended to be forked, extended, audited, and adapted.
 
