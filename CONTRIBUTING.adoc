@@ -1,4 +1,4 @@
-= Contributing to PIL Factbook
+= Contributing to PIL World Index
 :toc: left
 :toclevels: 2
 :icons: font

@@ -4,7 +4,7 @@
 :icons: font
 
 This style guide defines the structural, tonal, and citation standards for all
-content in the PIL Factbook.
+content in the PIL World Index.
 
 == Core Rules
 * Use stable section ordering across all country profiles

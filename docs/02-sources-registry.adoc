@@ -4,7 +4,7 @@
 :icons: font
 
 This document describes how sources are registered, referenced, and governed
-within the PIL Factbook.
+within the PIL World Index.
 
 The authoritative list of sources lives in:
 

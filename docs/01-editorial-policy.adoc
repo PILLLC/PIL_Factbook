@@ -3,10 +3,10 @@
 :toclevels: 2
 :icons: font
 
-This editorial policy governs all content published in the PIL Factbook.
+This editorial policy governs all content published in the PIL World Index.
 
 == Purpose
-The PIL Factbook exists to provide a descriptive, reference-style overview of
+The PIL World Index exists to provide a descriptive, reference-style overview of
 countries and territories based on verifiable public information.
 
 == Neutrality and Scope

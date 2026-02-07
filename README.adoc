@@ -1,3 +1,10 @@
-= PIL Factbook
+= PIL World Index
+:doctype: book
+:toc: macro
+:toclevels: 2
 
-Open, auditable country intelligence pages in AsciiDoc.
+PIL World Index is an open, auditable, and continuously maintained index of country-level public intelligence.
+
+It provides structured, source-linked profiles covering political systems, economic indicators, demographics, infrastructure, security context, and institutional capacity — built using open data, OSINT methodologies, and transparent editorial standards.
+
+This project is independent, non-governmental, and open-source.

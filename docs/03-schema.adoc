@@ -4,7 +4,7 @@
 :icons: font
 
 This document defines the minimum content schema for country and territory
-profiles in the PIL Factbook.
+profiles in the PIL World Index.
 
 The schema is intentionally simple and extensible to support both human-
 authored and AI-assisted generation.
