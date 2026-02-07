@@ -1,0 +1,86 @@
+= NATO — Context & Analysis
+:entity-type: org
+:org-slug: nato
+:acronym: NATO
+:last-updated: 2026-02-07
+:release: 2026.02.07
+
+== Mandate & Historical Evolution
+NATO was established in 1949 to provide collective defence against external
+aggression in the North Atlantic area. During the Cold War, deterrence and
+defence against the Warsaw Pact defined its purpose. Following the dissolution
+of the Soviet Union, NATO expanded its role to include crisis management,
+partnership building, and cooperative security, while enlarging its membership
+eastward. Since 2014—and especially after 2022—NATO has refocused on high-end
+deterrence and territorial defence in response to renewed interstate conflict
+in Europe. footnote:[NATO founding treaty; NATO strategic concept publications.]
+
+== Core Programs & Operations
+NATO executes its mandate through agreed collective mechanisms rather than
+standing national forces.
+
+* Integrated military command structure (Allied Command Operations and Allied Command Transformation)
+* Deterrence and defence posture, including enhanced forward presence and air policing
+* Crisis response and operations (when authorized by the North Atlantic Council)
+* Capability development, interoperability standards, and joint exercises
+* Partnerships with non-member states and other international organizations
+
+Operational activity is determined by consensus among member states.
+
+== Governance & Decision-Making
+NATO operates on the principle of consensus; no decisions are taken by majority
+vote.
+
+* North Atlantic Council (NAC): principal political decision-making body
+* Military Committee: senior military authority advising the NAC
+* Secretary General: chair of the NAC and principal international spokesperson
+* International Staff and International Military Staff: support decision-making and implementation
+
+All member states retain full sovereignty over national forces and resources.
+
+== Political, Economic, and Security Role
+NATO functions as the central collective defence institution for its members and
+a key node in the transatlantic security architecture. Its influence derives
+from political cohesion, military interoperability, and credible deterrence,
+rather than supranational authority. NATO coordinates closely with the European
+Union, United Nations, and partner states, but does not replace national defence
+policies or command structures.
+
+== Constraints, Criticism, and Debate
+Documented areas of debate include:
+
+* Burden-sharing disparities among member states
+* Consensus decision-making slowing rapid response
+* Tensions between collective defence priorities and out-of-area operations
+* Managing enlargement alongside relations with non-member adversaries
+
+These debates are intrinsic to NATO’s intergovernmental design.
+
+== Current Priorities & Outlook
+As of the current release cycle, NATO’s stated priorities include:
+
+* Sustaining deterrence and defence along its eastern flank
+* Supporting capability modernization and interoperability
+* Enhancing resilience against hybrid threats, cyber activity, and disinformation
+* Managing enlargement while maintaining alliance cohesion
+
+Future developments will depend on member-state political alignment, defence
+investment trends, and the evolving security environment.
+
+== Sources & Notes
+* Narrative content is derived from NATO treaties, strategic concepts, and official communications.
+* Analysis is descriptive and institutional, not policy advocacy.
+* This profile corresponds to release `{release}`.
+
+
+== Relationships
+
+Relationships are maintained in `data/relationships.yml` for auditability.
+
+[cols="1,1,3",options="header"]
+|===
+| Relationship ID | Type | Summary
+| rel-usa-nato-member-001 | member | The United States is a NATO member.
+| rel-jpn-nato-partner-001 | partner | Japan is not a NATO member. NATO and Japan maintain cooperation as partners.
+| rel-ukr-nato-partnership-001 | partnership | Ukraine is not a NATO member. NATO and Ukraine maintain a formal partnership framework and ongoing political and practical cooperation.
+|===

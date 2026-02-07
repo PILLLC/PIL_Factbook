@@ -1,0 +1,11 @@
+== Relationships
+
+This section lists cross-entity links maintained in `data/relationships.yml`.
+Relationship entries are referenced by ID for auditability.
+
+[cols="1,1,3",options="header"]
+|===
+| Relationship ID | Type | Summary
+| {rel-1-id} | {rel-1-type} | {rel-1-summary}
+| {rel-2-id} | {rel-2-type} | {rel-2-summary}
+|===

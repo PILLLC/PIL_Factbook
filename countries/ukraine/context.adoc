@@ -164,3 +164,14 @@ present recurring challenges.
 * Quantitative indicators may be revised as data collection stabilizes.
 * This document is descriptive and does not assess policy effectiveness.
 * Updates occur on a best-effort basis per release `{release}`.
+
+
+== Relationships
+
+Relationships are maintained in `data/relationships.yml` for auditability.
+
+[cols="1,1,3",options="header"]
+|===
+| Relationship ID | Type | Summary
+| rel-ukr-nato-partnership-001 | partnership | Ukraine is not a NATO member. NATO and Ukraine maintain a formal partnership framework and ongoing political and practical cooperation.
+|===

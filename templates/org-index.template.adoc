@@ -1,0 +1,55 @@
+= {org-name}
+:entity-type: org
+:org-slug: {org-slug}
+:acronym: {acronym}
+:wdid: {wdid}
+:last-updated: {last-updated}
+:release: {release}
+
+== Overview
+A concise, descriptive summary of the organization based on registered sources.
+This section may be AI-assisted but must not introduce unsourced facts.
+footnote:[Primary sources listed in the Sources Registry.]
+
+== Identity
+
+[cols="1,3",options="header"]
+|===
+| Field | Value
+| Official name | {official-name}
+| Acronym | {acronym}
+| Founded | {founded}
+| Headquarters | {hq}
+| Legal basis | {legal-basis}
+| Primary mandate | {mandate}
+| Geographic scope | {scope}
+| Membership | {membership-summary}
+|===
+
+== Key Indicators (Organization)
+
+[cols="1,1,1,1",options="header"]
+|===
+| Indicator | Value | Year | Source
+| Member count | {member-count} | {member-count-year} | footnote:[{member-count-source}, {member-count-year}.]
+| Annual budget (if applicable) | {budget} | {budget-year} | footnote:[{budget-source}, {budget-year}.]
+| Staff headcount (if available) | {staff} | {staff-year} | footnote:[{staff-source}, {staff-year}.]
+|===
+
+== Core functions
+
+* {function-1}
+* {function-2}
+* {function-3}
+
+== Governance structure
+
+*Decision-making bodies:* {decision-bodies}
+*Leadership:* {leadership}
+*Funding model:* {funding-model}
+
+== Sources & Notes
+
+* Values reflect the most recent year available at release time.
+* Sources are documented in `/sources/registry.yml`.
+* This profile corresponds to release `{release}`.

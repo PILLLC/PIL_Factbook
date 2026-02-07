@@ -1,0 +1,65 @@
+# PIL World Index — Cross-Entity Relationships Registry
+# Purpose: a single, auditable place to record links between entities
+# Entities should be referenced by their slugs and type:
+# - country:<slug>  (e.g., country:ukraine)
+# - org:<slug>      (e.g., org:nato)
+#
+# Every relationship must have at least one source.
+# Keep language descriptive; avoid predictions.
+
+schema_version: 0.1
+last_updated: "2026-02-07"
+
+relationships:
+
+  - id: rel-ukr-nato-partnership-001
+    from: country:ukraine
+    to: org:nato
+    relationship_type: partnership
+    label: "Ukraine–NATO partnership"
+    status: active
+    summary: >
+      Ukraine is not a NATO member. NATO and Ukraine maintain a formal partnership
+      framework and ongoing political and practical cooperation.
+    since: "1991"   # relationship initiation period; refine when you want
+    sources:
+      - id: nato-relations-ukraine
+        title: "NATO Relations with Ukraine (official overview)"
+        url: "TBD"
+        accessed: "2026-02-07"
+      - id: nato-ukr-nato-commission
+        title: "NATO–Ukraine Commission / partnership mechanisms (official)"
+        url: "TBD"
+        accessed: "2026-02-07"
+    notes:
+      - "Replace TBD URLs with official NATO pages and/or formal documents."
+      - "If you want precision, set since to the specific program start date."
+
+  - id: rel-usa-nato-member-001
+    from: country:usa
+    to: org:nato
+    relationship_type: member
+    label: "NATO member"
+    status: active
+    since: "1949-04-04"
+    sources:
+      - id: nato-member-countries
+        title: "NATO member countries (official list)"
+        url: "TBD"
+        accessed: "2026-02-07"
+
+  - id: rel-jpn-nato-partner-001
+    from: country:japan
+    to: org:nato
+    relationship_type: partner
+    label: "NATO partner (non-member cooperation)"
+    status: active
+    summary: >
+      Japan is not a NATO member. NATO and Japan maintain cooperation as partners,
+      including political dialogue and practical collaboration.
+    since: "TBD"
+    sources:
+      - id: nato-relations-japan
+        title: "NATO relations with Japan (official overview)"
+        url: "TBD"
+        accessed: "2026-02-07"

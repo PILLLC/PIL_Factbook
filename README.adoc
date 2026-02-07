@@ -3,8 +3,113 @@
 :toc: macro
 :toclevels: 2
 
-PIL World Index is an open, auditable, and continuously maintained index of country-level public intelligence.
+PIL World Index is an open, auditable, and continuously maintained reference index
+of country-level public intelligence.
 
-It provides structured, source-linked profiles covering political systems, economic indicators, demographics, infrastructure, security context, and institutional capacity — built using open data, OSINT methodologies, and transparent editorial standards.
+It provides structured, source-linked profiles describing political systems,
+economic indicators, demographics, infrastructure, security context, and
+institutional capacity. All content is derived from open sources and governed by
+transparent editorial standards.
 
 This project is independent, non-governmental, and open-source.
+
+toc::[]
+
+== Purpose
+
+The PIL World Index exists to provide a neutral, descriptive alternative to
+legacy country reference products. It emphasizes transparency, source traceability,
+and updateability over narrative authority.
+
+Rather than presenting a single institutional viewpoint, the Index is designed
+to support analysts, researchers, journalists, educators, and technologists who
+require:
+
+* Clearly sourced, auditable country data
+* Separation of indicators from contextual analysis
+* Explicit documentation of assumptions and limitations
+* A structure suitable for both human reading and machine use
+
+== What this is (and is not)
+
+=== This project is:
+
+* Descriptive, not predictive
+* Source-linked, not proprietary
+* Continuously revisable, not edition-locked
+* Designed for scrutiny, reuse, and extension
+
+=== This project is not:
+
+* A policy advocacy platform
+* A classified or privileged intelligence product
+* A replacement for primary statistical agencies
+* A real-time monitoring or forecasting system
+
+== Structure
+
+The repository is organized around a small number of explicit content types:
+
+=== Country profiles
+
+Each country is represented by a structured index file containing standardized
+key indicators, followed by a contextual profile that explains conditions,
+institutions, and constraints.
+
+Gold-standard exemplar profiles are maintained to define editorial quality and
+scope expectations.
+
+=== Organization profiles
+
+International organizations (e.g., NATO) are represented using the same pattern:
+an index file for standardized fields and a context file for descriptive analysis.
+
+=== Templates
+
+Reusable AsciiDoc templates define required fields, section structure, and
+variable usage to ensure consistency across profiles.
+
+=== Sources registry
+
+All authoritative data sources are documented in a central registry, enabling
+verification, substitution, and long-term maintenance.
+
+=== Editorial and schema documentation
+
+Style guides, schemas, and editorial policies are included to make assumptions,
+rules, and boundaries explicit.
+
+== Methodology
+
+The PIL World Index follows open-source intelligence (OSINT) principles:
+
+* Preference for primary, publicly available sources
+* Explicit citation of datasets and publications
+* Separation of quantitative indicators from narrative context
+* Clear marking of update dates and release versions
+
+AI-assisted drafting may be used for summarization and synthesis, but the project
+does not introduce unsourced factual claims.
+
+== Governance and updates
+
+Content is versioned by release. Updates occur on a best-effort basis and may vary
+by entity depending on data availability and global conditions.
+
+Contributions are reviewed for sourcing, tone neutrality, and structural
+compliance rather than ideological alignment.
+
+== License and reuse
+
+All original content is released under an open license unless otherwise noted.
+Source data remains subject to the terms of the originating organizations.
+
+This project is intended to be forked, adapted, extended, and audited.
+
+== About Public Information Limited (PIL)
+
+Public Information Limited (PIL) is an independent research and content practice
+focused on public-sector systems, open data, analytics, and institutional literacy.
+
+PIL maintains the World Index as a public good and invites constructive scrutiny
+and collaboration.

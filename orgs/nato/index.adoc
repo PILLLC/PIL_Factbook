@@ -1,0 +1,53 @@
+= North Atlantic Treaty Organization
+:entity-type: org
+:org-slug: nato
+:acronym: NATO
+:wdid: Q7184
+:last-updated: 2026-02-07
+:release: 2026.02.07
+
+== Overview
+The North Atlantic Treaty Organization (NATO) is a political and military alliance
+founded in 1949 by the North Atlantic Treaty (Washington Treaty). NATO’s core
+purpose is collective defence, expressed most prominently through Article 5 of
+the Treaty, alongside crisis management and cooperative security. footnote:[NATO, “Founding treaty” (Washington Treaty), signed 4 April 1949.]
+
+== Identity
+[cols="1,3",options="header"]
+|===
+| Field | Value
+| Official name | North Atlantic Treaty Organization
+| Acronym | NATO
+| Founded | 4 April 1949 footnote:[NATO, “Founding treaty” (Washington Treaty), signed 4 April 1949.]
+| Headquarters | Brussels, Belgium footnote:[NATO, “NATO member countries” / organization overview pages.]
+| Legal basis | North Atlantic Treaty (Washington Treaty), grounded in the collective defence principle and the inherent right of self-defence under UN Charter Article 51 footnote:[NATO, “Founding treaty”.]
+| Primary mandate | Collective defence (Article 5), crisis management, cooperative security footnote:[NATO, “Founding treaty”; NATO, “What we do” overview pages.]
+| Geographic scope | North Atlantic area (Treaty-defined) footnote:[NATO, “Founding treaty”.]
+| Membership | 32 member countries (as of latest NATO public membership listing) footnote:[NATO, “NATO member countries”.]
+|===
+
+== Key Indicators (Organization)
+[cols="1,1,1,1",options="header"]
+|===
+| Indicator | Value | Year | Source
+| Member count | 32 | 2026 | footnote:[NATO, “NATO member countries”, accessed 2026.]
+| Common-funded budgets & programmes (approx.) | up to ~EUR 5.3B | 2026 | footnote:[NATO, “Funding NATO” (budgets and programmes), 2026.]
+| Civil + Military common-funded budgets (selected detail) | Civil: EUR 528.2M; Military: EUR 2.42B | 2026 | footnote:[NATO, “NATO agrees its 2026 common funded budgets…”, 17 Dec 2025.]
+| Civilian HQ staff (approx.) | ~1,200 International Staff (+ ~100 International Military Staff at HQ) | (current) | footnote:[NATO, “Diversity, inclusion and accessibility at NATO” (staffing figures).]
+|===
+
+== Core functions
+* Collective defence planning and deterrence posture coordination among Allies.
+* Operational command structure and mission support (as agreed by Allies).
+* Political consultation and coordination through NATO’s principal councils and committees.
+
+== Governance structure
+*Decision-making bodies:* North Atlantic Council (NAC) as the principal political decision-making body; Military Committee as the senior military authority; supporting committees and integrated civil-military staffs. footnote:[NATO public organizational descriptions.]
+*Leadership:* Secretary General (international civilian head), supported by the International Staff and International Military Staff. footnote:[NATO public organizational descriptions.]
+*Funding model:* Common-funded civil and military budgets and the NATO Security Investment Programme (NSIP), alongside much larger national defence budgets funded by individual member states. footnote:[NATO, “Funding NATO”.]
+
+== Sources & Notes
+* This is an MVP “index” profile: structured facts first; narrative analysis belongs in `orgs/nato/context.adoc`.
+* Values are rounded where NATO publishes approximate totals; detailed line-items may be presented in NATO budget communications.
+* Sources are documented in `/sources/registry.yml`.
+* This profile corresponds to release `{release}`.

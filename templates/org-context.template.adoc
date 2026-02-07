@@ -1,0 +1,67 @@
+= {org-name} — Context & Analysis
+:entity-type: org
+:org-slug: {org-slug}
+:acronym: {acronym}
+:last-updated: {last-updated}
+:release: {release}
+
+== Mandate & Historical Evolution
+
+Describe the organization’s original mandate, the conditions that led to its
+creation, and how its role has evolved over time. This section should emphasize
+institutional continuity and change rather than advocacy or critique.
+footnote:[Founding documents and historical sources listed in the Sources Registry.]
+
+== Core Programs & Operations
+
+Outline the primary programs, operational mechanisms, or activities through
+which the organization fulfills its mandate.
+
+* {program-or-operation-1}
+* {program-or-operation-2}
+* {program-or-operation-3}
+
+Include geographic scope and operational scale where applicable.
+
+== Governance & Decision-Making
+
+Explain how decisions are made and authority is exercised.
+
+* Governing bodies and councils
+* Voting or consensus mechanisms
+* Leadership selection and accountability
+* Role of member states or stakeholders
+
+This section should be descriptive and procedural.
+
+== Political, Economic, or Security Role
+
+Analyze the organization’s role within the broader international system.
+This may include:
+
+* Influence on state behavior
+* Coordination or enforcement mechanisms
+* Relationship to other international institutions
+* Strategic relevance in current global conditions
+
+Analysis must remain grounded in cited sources.
+
+== Constraints, Criticism, and Debate
+
+Summarize well-documented critiques, limitations, or controversies associated
+with the organization. This section must avoid editorial language and clearly
+attribute perspectives to sources.
+
+== Current Priorities & Outlook
+
+Describe the organization’s stated priorities, reform initiatives, or strategic
+direction as of the current release cycle.
+
+Include forward-looking indicators only where sourced and clearly framed as
+policy intent or projections.
+
+== Sources & Notes
+
+* Narrative content is derived from registered primary and secondary sources.
+* AI assistance may be used for synthesis but not for factual invention.
+* This profile corresponds to release `{release}`.
