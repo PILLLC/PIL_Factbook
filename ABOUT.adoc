@@ -1,0 +1,59 @@
+= About the PIL World Index
+
+The PIL World Index is an experiment in treating country information as
+public infrastructure rather than as editorial content.
+
+For decades, country reference products have combined facts, analysis,
+and institutional perspective into single narratives. While useful,
+those formats often obscure sourcing, assumptions, and update mechanics.
+
+The World Index takes a different approach.
+
+== Design principles
+
+The Index is built around a small set of explicit principles:
+
+* **Transparency** — All claims are traceable to sources.
+* **Separation of concerns** — Indicators, context, and relationships are distinct.
+* **Auditability** — Content can be reviewed, diffed, and versioned.
+* **Reusability** — Structured formats support downstream use.
+* **Neutrality** — Descriptive analysis without policy advocacy.
+
+== What’s included
+
+Each country profile consists of:
+
+* A standardized index of key indicators
+* A contextual narrative describing institutions and constraints
+* Explicit links to international organizations and partnerships
+* Release metadata indicating currency and scope
+
+International organizations are treated as first-class entities, using the same
+structural model.
+
+== Who this is for
+
+The Index is intended for:
+
+* Researchers and analysts
+* Journalists and editors
+* Educators and students
+* Civic technologists and developers
+* Anyone who wants a clearer view of how countries and institutions relate
+
+== What this enables
+
+By separating data, context, and relationships, the Index supports:
+
+* Comparative analysis across countries
+* Programmatic reuse in tools and visualizations
+* Transparent updates as conditions change
+* Independent verification and critique
+
+== Status
+
+This repository represents an early but functional MVP.
+Gold-standard exemplars define quality and scope expectations.
+The structure is stable; content will continue to evolve.
+
+The project is open by design and open to scrutiny.
