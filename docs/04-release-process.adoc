@@ -1,0 +1,120 @@
+= Release Process
+:toc: macro
+:toclevels: 2
+
+The PIL World Index is published through a lightweight, transparent release process.
+Releases are designed to make changes traceable, reviewable, and reproducible over time.
+
+This process applies to all country profiles, organization profiles, relationships, and supporting data.
+
+== Release Philosophy
+
+Releases prioritize:
+
+* Transparency over speed
+* Traceability over completeness
+* Incremental improvement over one-time publication
+
+A release does not imply finality. It represents a stable snapshot of the index at a given point in time.
+
+== Release Types
+
+The following release types are used:
+
+=== Patch Releases
+
+Patch releases include:
+* Source URL corrections
+* Typographical fixes
+* Formatting or structural alignment
+* Non-substantive clarifications
+
+Patch releases do not introduce new indicators or materially alter interpretations.
+
+Example:
+----
+v0.1.1
+----
+
+=== Minor Releases
+
+Minor releases may include:
+* New country profiles
+* New organization profiles
+* New relationship entries
+* Expanded context sections using existing sources
+
+Minor releases maintain backward compatibility with the existing schema.
+
+Example:
+----
+v0.2.0
+----
+
+=== Major Releases
+
+Major releases may include:
+* Schema changes
+* Structural reorganization
+* Editorial policy revisions
+* Significant expansion of scope or methodology
+
+Major releases may introduce breaking changes and are versioned accordingly.
+
+Example:
+----
+v1.0.0
+----
+
+== Versioning
+
+The PIL World Index follows semantic versioning:
+
+----
+MAJOR.MINOR.PATCH
+----
+
+* MAJOR — structural or methodological changes
+* MINOR — additive, non-breaking content changes
+* PATCH — corrections and refinements
+
+The current release version is recorded in each country and organization profile using the `{release}` attribute.
+
+== Release Workflow
+
+A typical release follows this sequence:
+
+. Changes are developed on a local working copy or feature branch.
+. Content is reviewed for structural consistency and sourcing.
+. The release version is incremented.
+. Changes are committed to the main branch.
+. A Git tag corresponding to the release version is created.
+
+Releases are published directly from the main branch.
+
+== Source Freezing
+
+Each release represents a snapshot of source availability at the time of publication.
+
+Sources may update independently after a release.  
+Subsequent releases may reflect updated values or interpretations based on newly available data.
+
+== Auditability
+
+All releases remain available through Git history and tagged versions.
+
+This allows:
+* Independent review
+* Historical comparison
+* External reuse and citation
+
+No content is overwritten without trace.
+
+== Future Extensions
+
+Future iterations of the release process may include:
+* Automated validation checks
+* Change logs generated from commit history
+* Scheduled release cadences
+
+These extensions will be introduced incrementally as the index matures.
