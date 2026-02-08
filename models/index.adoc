@@ -1,0 +1,12 @@
+= Population Model
+include::context.adoc[]
+
+== Overview
+The population model defines how population-related indicators may be structured,
+interpreted, and extended within the PIL World Index. It provides a transparent,
+non-predictive framework for organizing demographic inputs and describing how
+population change is represented across countries and regions.
+
+The model is descriptive in intent and does not claim to forecast population
+outcomes. Where scenarios or projections are referenced, they are explicitly
+labeled and sourced.
